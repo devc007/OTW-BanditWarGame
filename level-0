@@ -1,6 +1,6 @@
 The Bandit server is hosted outside your machine, so to play the game, you first need to log in to their server using SSH.
 
-## SSH:
+SSH:
 SSH stands for Secure Shell, and it uses both the SSH protocol and TCP protocol to establish a secure connection. Here’s the command to connect:
 ssh bandit0@bandit.labs.overthewire.org -p 2220
 
