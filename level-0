@@ -1,15 +1,19 @@
-Bandit server is outside of your machine so the game first asks you to login to there server and for this it uses ssh.
-SSH- 
-   ssh stands for secure shell connection it uses ssh and tcp protocol for secure connection.
-command-- ssh bandit0@bandit.labs.overthewire.org -p 2220
-    explaination of command- ssh means you are using ssh for connection but connection to where(in which machine) and for this "bandit.labs.overthewire.org"
-    . This is the host means machine name and but in a machine there could be multiple users so the game developers creates
-    different users for different levels on the same server. so because we are on 0 level we will use bandit0 user.
-    Now last part is port so in which you want to access the level0 and for this developers select port 2220 but important 
-    thing is that ssh bydefault uses port 22 rather than that they uses port 2220, I don't know why may be security concern
-    or they want us to use different port number for out practice
-After running this command ssh will ask for password
-        SSH is used in two different ways first- user name and password (which is in this case we are using)
-        or other way is to use public and private key which is more secure.
-So after submitting the password you will be able to login to level0.
-    
+The Bandit server is hosted outside your machine, so to play the game, you first need to log in to their server using SSH.
+
+## SSH:
+SSH stands for Secure Shell, and it uses both the SSH protocol and TCP protocol to establish a secure connection. Here’s the command to connect:
+ssh bandit0@bandit.labs.overthewire.org -p 2220
+
+Explanation of the command:
+ssh: This indicates that you're using the SSH protocol for the connection.
+bandit.labs.overthewire.org: This is the host (or domain name) of the machine you're connecting to. The domain name resolves to the server's IP address.
+bandit0: This is the username for the level you’re trying to access. The game developers have created different users for different levels on the same server, and since we’re on level 0, we use the user bandit0.
+-p 2220: By default, SSH uses port 22, but in this case, the developers have specified port 2220, possibly for security reasons or to give us practice using non-standard ports.
+After running this command, SSH will prompt you for a password.
+
+
+SSH Authentication:
+SSH can authenticate users in two main ways:
+Username and password (which we are using in this case).
+Public and private key authentication, which is more secure because it doesn’t involve sending passwords over the network.
+Once you enter the correct password, you will be logged in to level 0 of the Bandit game.
