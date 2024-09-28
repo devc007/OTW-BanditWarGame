@@ -1,4 +1,14 @@
-As suggested in level password is store in readme file
-commands
-    1. ls --> to list all the files and folders in current directory (except hidden folders and files).
-    2. cat --> this is used to read the content inside file and this will provide you the password. 
+In Level 0, the password is stored in the README file. You can use the following commands to retrieve it:
+
+ls: Lists all files and folders in the current directory (excluding hidden files and folders).
+cat: Reads the content of the specified file, which will provide you with the password.
+Once you have the password for Level 0, you can log in to Level 1. However, if you exit the game after reaching Level 1 and return later, you'll need to clear Level 0 again to proceed.
+
+To avoid this repetition, you can store the password in a file for future use. Here’s how:
+
+ 1. Create a folder.
+ 2. Inside that folder, use the following command to store the password:
+
+    echo "your_password" > 0
+1. The echo command will output the text (in this case, the password).
+2. The > symbol is used to redirect the output and create a file named 0 that stores the password.
