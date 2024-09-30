@@ -1,0 +1,4 @@
+Whenever a filename with spaces comes 
+use (" ")
+So for this level solution would be 
+command  --> cat "spaces in the file"
