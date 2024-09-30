@@ -1,0 +1,5 @@
+In this, file start with -(dash)
+A file starting with a -(dash) can cause issues when working with command-line tools, as most Unix-based commands interpret arguments starting with a dash as options or flags.
+
+So read this type of file we have to specify that -(dash) is used with filename not with flags 
+  cat ./-  --> this tells interpreter to look for file - in current directory
