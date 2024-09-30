@@ -1,0 +1,3 @@
+ls means list command have some of the important flags
+one of them is -a which looks for hidden file
+so for this level use ls -a to find hidden file
