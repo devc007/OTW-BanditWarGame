@@ -1,4 +1,6 @@
-In this scenario, among multiple files, we need to find a human-readable file. We can use the file command to check the file type, and a file with the ASCII type will be considered human-readable. There are two ways to do this:
+In this scenario, among multiple files, we need to find a human-readable file. 
+We can use the file command to check the file type, and a file with the ASCII type will be considered human-readable. 
+There are two ways to do this:
 
 1. We can check the files one by one. Command: file ./-file00. Since the file name starts with a dash (-), we have to use ./.
 2. We can use *, which will check all files at once. Command: file ./*.
